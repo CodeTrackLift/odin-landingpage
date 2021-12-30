@@ -1,6 +1,6 @@
 /*site style*/
 html {
-    /* background-color: rgb(38, 38, 38); */
+    background-color: rgb(38, 38, 38);
     font-family: verdana, arial;
     background-image: url("./background.jpg");
     background-attachment: fixed;
