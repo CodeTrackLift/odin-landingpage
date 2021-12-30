@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="logo">TheFirm, Inc.</div>
+        <div class="links">
+            <a href="#welcome">Welcome</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div id="welcome">
+        <div class="welcome-text">
+            <h1>Catchy Slogan Goes Here!</h1>
+            <p>Some smaller text will be included here.  The purpose of this smaller text is to get people to click the button below...</p>
+            <button><a href="#contact">Click Me!</a></button>
+        </div>
+        <img src="./img1.jpg" alt="Alternate text for the image belongs here.">
+    </div>
+
+    <div id="about">
+        <div>"Providing Excellence in Engineering and Technology Solutions."</div>
+        <div>-TheFirm, Inc. Est. 1991</div>
+    </div>
+
+    <div id="services">
+        <div class="card">
+            <a href="#"><img src="./img2.jpg"alt="Alternate text that is appropriate for this image will go here.">
+            <p>a cleanroom environment that is probably used for something technical and fancy</p></a>
+        </div>
+        <div class="card">
+            <a href="#"><img src="./img3.jpg"alt="Alternate text that is appropriate for this image will go here.">
+            <p>two guys talking about some paper, both are wearing hard hats and gloves</p></a>
+        </div>
+        <div class="card">
+            <a href="#"><img src="./img4.jpg"alt="Alternate text that is appropriate for this image will go here.">
+            <p>looks like a loading bay with some trucks for a large warehouse space</p></a>
+        </div>
+        <div class="card">
+            <a href="#"><img src="./img5.jpg"alt="Alternate text that is appropriate for this image will go here.">
+            <p>check out those copper lines above, I wonder if they're used for some sort of gas</p></a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <h3>Need some <span></span class="strong">Professional Engineering</span> services?  Let's work together!</h3>
+        <form>
+            <div class="form">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required/>
+            </div>
+            <div class="form">
+                <label id="email-label" for="email">Email </label>
+                <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="form">
+                <label id="company-label" for="company">Company Name<span class="clue"> (Optional)</span></label>
+                <input type="company" name="company" class="form-control" placeholder="Company Name"/>
+            </div>
+            <div class="form">
+                <p>Which option best describes your current Engineering needs?</p>
+                <select id="dropdown" name="needs" class="form" required>
+                <option disabled selected value>Select Category</option>
+                <option value="buildingdesign">Building Design</option>
+                <option value="biopharmaceutical">Biopharmaceutical</option>
+                <option value="chemical">Chemical</option>
+                <option value="commercial">Commercial</option>
+                <option value="electrical">Electrical</option>
+                <option value="fireprotection">Fire Protection</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="mechanical">Mechanical</option>
+                <option value="pharmaceutical">Pharmaceutical</option>
+                <option value="plumbing">Plumbing</option>
+                <option value="projectmanagement">Project Management</option>
+                <option value="siteplanning">Site Planning</option>
+                </select>
+            </div>
+            <div class="form">
+                <p>Include additional project related details below:</p>
+                <textarea id="comments" class="input-textarea" name="projectdetails"></textarea>
+            </div>
+            <div class"form">
+                <input type="submit">
+            </div>
+        </form>
+    </div>
+            
+    <div class="foot">
+        <footer>Copyright &copy; TheFirm, Inc. 2021</footer>
+    </div>
+
+</body>
+</html>
