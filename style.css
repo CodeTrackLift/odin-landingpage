@@ -1,6 +1,6 @@
 /*site style*/
 html {
-    background-color: gray;
+    background-color: rgb(38, 38, 38);
     font-family: verdana, arial;
 }
 
@@ -46,10 +46,12 @@ a:hover {
 /*welcome style*/
 #welcome {
     color: lightgray;
-    background: linear-gradient(180deg, #1f2937 95%,lightgray 100%);
+    /* background: linear-gradient(180deg, #1f2937 95%,lightgray 100%); */
+    background-color: #1f2937;
     display: flex;
     padding: 20px 60px 50px 60px;
     gap: 16px;
+    border-radius: 8px;
 }
 
 #welcome>.welcome-text {
@@ -77,12 +79,13 @@ div>button {
 
 /*about style*/
 #about {
-    background: lightgray;
-    background: linear-gradient(180deg, rgba(214,214,214,1) 85%,rgb(50, 202, 169) 100%);
+    background-color: rgb(38, 38, 38);
+    /* background: linear-gradient(180deg, rgba(214,214,214,1) 85%,rgb(50, 202, 169) 100%); */ 
     display: flex;
     flex-direction: column;
     padding: 20px 60px 70px 60px;
     gap: 20px;
+    color: lightgray;
 }
 
 #about>div:first-child {
@@ -99,7 +102,7 @@ div>button {
 /*services style*/
 #services {
     background-color: rgb(50, 202, 169);
-    background: linear-gradient(180deg, rgb(50, 202, 169) 90%, rgba(214,214,214,1) 100%);
+    /* background: linear-gradient(180deg, rgb(50, 202, 169) 90%, rgba(214,214,214,1) 100%); */
     color: darkslategray;
     display: flex;
     flex-wrap: wrap;
@@ -107,6 +110,7 @@ div>button {
     gap: 48px;
     justify-content: space-evenly;
     align-content: center;
+    border-radius: 8px;
 }
 
 .card {
@@ -133,11 +137,12 @@ a>img {
 
 /*contact style*/
 #contact {
-    background-color: lightgray;
-    background: linear-gradient(180deg, lightgray 95%,#1f2937 100%);
+    background-color: rgb(38, 38, 38);
+    /* background: linear-gradient(180deg, lightgray 95%,#1f2937 100%); */
     padding: 10px 60px 40px 60px;
     display: flex;
     flex-direction: column;
+    color: lightgray
 }
 
 div>h2,h3 {
@@ -154,6 +159,7 @@ form {
     background-color: rgb(50, 202, 169);
     border-radius: 8px;
     padding: 12px;
+    color: rgb(38, 38, 38)
 }
 
 #submitbutton {
