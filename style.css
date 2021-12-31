@@ -126,7 +126,7 @@ div>button {
 .card {
     background-color: rgb(50, 202, 169);
     width: 200px;
-    border: 4px outset rgb(48, 221, 184);
+    border: 3px outset rgb(48, 221, 184);
     border-radius: 8px;
     padding: 4px;
 }
@@ -169,6 +169,7 @@ form {
     gap: 8px;
     background-color: rgb(50, 202, 169);
     border-radius: 8px;
+    border: 3px outset rgb(48, 221, 184);
     padding: 12px;
     color: rgb(38, 38, 38)
 }
