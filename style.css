@@ -111,7 +111,7 @@ div>button {
 
 /*services style*/
 #services {
-    background-color: rgb(50, 202, 169);
+    /* background-color: rgb(50, 202, 169); */
     /* background: linear-gradient(180deg, rgb(50, 202, 169) 90%, rgba(214,214,214,1) 100%); */
     color: darkslategray;
     display: flex;
@@ -124,6 +124,7 @@ div>button {
 }
 
 .card {
+    background-color: rgb(50, 202, 169);
     width: 200px;
     border: 4px outset rgb(48, 221, 184);
     border-radius: 8px;
