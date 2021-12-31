@@ -40,10 +40,14 @@ body {
 
 a:hover {
     background-color: rgb(50, 202, 169);
-    padding: 6px 12px 6px 12px;
+    padding: 8px 13px 7px 13px;
     margin: -8px -8px 0px -8px;
     color: darkslategray;
     border-radius: 8px;
+}
+
+img:hover {
+    opacity: 0.5;
 }
 
 /*welcome style*/
@@ -183,7 +187,7 @@ form {
     background-color: #1f2937;
     color: white;
     display: flex;justify-content: center;
-    padding: 10px 0px 20px 0px;
+    padding: 12px 0px 16px 0px;
     flex: 1;
     border-radius: 8px;
 }
