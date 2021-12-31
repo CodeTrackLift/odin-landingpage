@@ -4,6 +4,7 @@ html {
     font-family: verdana, arial;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./background.jpg");
     background-attachment: fixed;
+    background-position: top center;
 }
 
 body {
