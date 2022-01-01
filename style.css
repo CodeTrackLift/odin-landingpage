@@ -17,7 +17,7 @@ body {
     border-radius: 8px;
 }
 
-/*header styles*/
+/*header style*/
 .head {
     background-color: #1f2937;
     color: white;
@@ -41,8 +41,8 @@ body {
 
 a:hover {
     background-color: #00857c;
-    padding: 8px 13px 7px 13px;
-    margin: -8px -13px 0px -13px;
+    padding: 7px 13px 7px 13px;
+    margin: -8px -13px -1px -13px;
     color: lightgray;
     border-radius: 8px;
 }
