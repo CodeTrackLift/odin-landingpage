@@ -8,6 +8,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<!--javascript fun with the button-->
+<script>
+    function myFunc() {
+        let userName = prompt("Who's there?", "");
+        if (userName === "Jack" || userName === "Diana") {
+            let pass = prompt("Who ELSE is there?", "");
+            if (pass === "Diana" || userName === "Jack") {
+                alert( "Welcome!" );
+            } else if (pas === "" || pass === null) {
+                alert ( "Canceled" );
+            } else {
+                alert( "Wrong password" );
+            }
+        } else if (userName === "" || userName === null) {
+            alert( "Canceled" );
+        } else {
+            alert( "I don't know you" );
+        }
+    }
+</script>
+
 <body>
     <div class="head">
         <div class="logo">TheFirm, Inc.</div>
@@ -23,7 +44,7 @@
         <div class="welcome-text">
             <h1>Catchy Slogan Goes Here!</h1>
             <p>Some smaller text will be included here.  The purpose of this smaller text is to get people to click the button below...</p>
-            <button><a href="#contact">Click Me!</a></button>
+            <button onclick=myFunc()><a href="#contact">Click Me!</a></button>
         </div>
         <img src="./img1.jpg" alt="Alternate text for the image belongs here.">
     </div>
