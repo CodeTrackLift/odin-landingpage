@@ -11,21 +11,22 @@
 <!--javascript fun with the button-->
 <script>
     function myFunc() {
-        let userName = prompt("Who's there?", "");
-        if (userName === "Jack" || userName === "Diana") {
-            let pass = prompt("Who ELSE is there?", "");
-            if (pass === "Diana" || userName === "Jack") {
-                alert( "Welcome!" );
-            } else if (pas === "" || pass === null) {
-                alert ( "Canceled" );
-            } else {
-                alert( "Wrong password" );
+        let myNum = Math.floor(Math.random() * 10);
+        yourGuess();
+        function yourGuess() {
+            let yourNum = prompt("Random number 1 to 10.  Take a guess!");
+            if (myNum == yourNum) {
+                alert("You guessed the right number.  It was " + myNum + ". You win!");
+                return;
+            } else if (yourNum == "" || yourNum === null) {
+                alert("You have quit, click me again to play.");
+                return;
+            } else if (myNum > yourNum) {
+                alert("My number is higher, guess again...");
+                yourGuess();
+            } else alert("My number is lower, guess again...");
+                yourGuess();
             }
-        } else if (userName === "" || userName === null) {
-            alert( "Canceled" );
-        } else {
-            alert( "I don't know you" );
-        }
     }
 </script>
 
@@ -43,8 +44,8 @@
     <div id="welcome">
         <div class="welcome-text">
             <h1>Catchy Slogan Goes Here!</h1>
-            <p>Some smaller text will be included here.  The purpose of this smaller text is to get people to click the button below...</p>
-            <button onclick=myFunc()><a href="#contact">Click Me!</a></button>
+            <p>Some smaller text will be included here.  A mini-game has been added to the button below.  Click the button below to play!</p>
+            <button onclick=myFunc()><a href="#welcome">Click Me!</a></button>
         </div>
         <img src="./img1.jpg" alt="Alternate text for the image belongs here.">
     </div>
