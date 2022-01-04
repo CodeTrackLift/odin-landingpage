@@ -17,18 +17,21 @@
         function yourGuess() {
             let yourNum = prompt("Random number 1 to 10.  Take a guess!");
             numGuess.push(yourNum);
-            if (myNum == yourNum) {
-                alert("You guessed the right number.  It was " + myNum + ", which took " + numGuess.length + " guesses.  You win!");
-                return "";
-            } else if (yourNum == "" || yourNum === null) {
-                alert("You have quit, click me again to play.");
-                return;
-            } else if (myNum > yourNum) {
+            if (myNum > yourNum) {
                 alert("The number is higher, guess again...");
                 yourGuess();
-            } else alert("The number is lower, guess again...");
+                } else if (myNum < yourNum) {
+                alert("The number is lower, guess again...");
                 yourGuess();
+                } else if (myNum == yourNum) {
+                alert("You guessed the right number.  It was " + myNum + ", which took " + numGuess.length + " guesses.  You win!");
+                alert("Your previous guesses were " + numGuess);
+                return 0;
+                } else if (yourNum == "" || yourNum === null) {
+                alert("You have quit, click me again to play.");
+                return 0;
             }
+        }
     }
 </script>
 
