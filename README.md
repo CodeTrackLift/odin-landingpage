@@ -22,7 +22,7 @@ This is my first landingpage and was completed as part of The Odin Project Found
 
 >**Custom Features**:
 <ol>
-    <li>Added button hover effects</li>
+    <li>Added some hover effects</li>
     <li>Used CSS flex to add some responsiveness</li>
     <li>Added a 'hidden' text-based JavaScript Mini-Game, just for fun</li>
 </ol>
