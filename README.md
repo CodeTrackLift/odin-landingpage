@@ -22,7 +22,7 @@ This is my first landingpage and was completed as part of The Odin Project Found
 
 >**Custom Features**:
 <ol>
-    <li>Added some hover effects</li>
+    <li>Added hover effects</li>
     <li>Used CSS flex to add some responsiveness</li>
     <li>Added a 'hidden' text-based JavaScript Mini-Game, just for fun</li>
 </ol>
@@ -35,7 +35,7 @@ This is a progression project, no further development is anticipated.
 
 ## MIT License
 
-Copyright (c) 2022 Pete Chu <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com/)***
+Copyright (c) 2022 Pete Chu <img src='https://codetracklift.github.io/codeTrackLift/logos/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com/)***
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
